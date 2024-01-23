@@ -1,0 +1,39 @@
+@import "../../../color-variables.scss";
+
+.alert {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 15px;
+  background-color: $primary-color;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.alert p {
+  margin: 0;
+}
+
+.alert button {
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: $light-primary-color;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.alert button:hover {
+  background-color: $secondary-color;
+}
+
+p, button {
+  background-color: unset;
+}

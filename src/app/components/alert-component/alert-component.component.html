@@ -1,0 +1,4 @@
+<div *ngIf="isVisible" [ngClass]="{'alert': true, 'error': isError}">
+  <p>{{ message }}</p>
+  <button (click)="hideAlert()">Fechar</button>
+</div>

@@ -9,7 +9,8 @@ import { HomeComponent } from "./components/home/home.component";
     styleUrl: './app.component.scss',
     imports: [
       RouterOutlet, 
-      HomeComponent]
+      HomeComponent
+    ]
 })
 export class AppComponent {
   title = 'Angular-LP';
